@@ -1,0 +1,7 @@
+# Exclude older versions
+obs-script.py
+obs-scriptv2.py
+
+# Python artifacts
+__pycache__/
+*.pyc
