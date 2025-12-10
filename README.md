@@ -40,3 +40,18 @@ Ensure your OBS Scene has sources named exactly as follows:
 - `2D Main`
 - `2D Sub`
 - `Gameplay Video`
+
+## Window Title Changer Tool
+
+Included is a helper tool `window-title-changer.py` to help you rename application windows so OBS can distinguish between multiple instances of the same program.
+
+### Usage
+1.  Run the script:
+    ```bash
+    python window-title-changer.py
+    ```
+2.  **Search**: Type to filter the list of open windows.
+3.  **Select**: Click on the window you want to rename.
+4.  **Rename**: Enter a new title and click **Rename**.
+5.  **Restore**: Click **Restore Original** to revert changes (only available if you renamed it in the current session).
+
